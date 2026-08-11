@@ -22,6 +22,10 @@ doc_events = {
         "on_create": "restaurant_management.restaurant_management.page.restaurant_manage.restaurant_manage.set_settings_data",
         "on_update": "restaurant_management.restaurant_management.page.restaurant_manage.restaurant_manage.set_settings_data"
     },
+    "Restaurant Menu": {
+        "after_save": "restaurant_management.restaurant_management.shop_bridge.bridge.sync_menu_to_shop",
+        "on_trash": "restaurant_management.restaurant_management.shop_bridge.bridge.unpublish_menu"
+    },
 }
 
 app_include_css = [

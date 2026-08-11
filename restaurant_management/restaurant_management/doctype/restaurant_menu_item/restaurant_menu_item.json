@@ -9,7 +9,8 @@
   "item",
   "column_break_xglw",
   "item_group",
-  "status"
+  "status",
+  "publish_on_shop"
  ],
  "fields": [
   {
@@ -35,6 +36,13 @@
    "fieldname": "item_group",
    "fieldtype": "Read Only",
    "label": "Item Group"
+  },
+  {
+   "default": "0",
+   "description": "Publish this menu item on the website shop (/all-products).",
+   "fieldname": "publish_on_shop",
+   "fieldtype": "Check",
+   "label": "Publish on Shop"
   }
  ],
  "index_web_pages_for_search": 1,
