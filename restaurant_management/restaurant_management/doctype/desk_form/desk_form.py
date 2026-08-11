@@ -10,8 +10,7 @@ from __future__ import unicode_literals
 import json
 import os
 
-from six import iteritems
-from six.moves.urllib.parse import urlencode
+from urllib.parse import urlencode
 
 import frappe
 from frappe import _, scrub

@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 import frappe
+from frappe.utils.nestedset import get_root_of
 from erpnext.accounts.doctype.pos_profile.pos_profile import get_item_groups
 from erpnext.accounts.doctype.pos_invoice.pos_invoice import get_stock_availability
 

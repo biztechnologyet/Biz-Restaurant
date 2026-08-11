@@ -84,9 +84,6 @@ def create_desk_forms():
     basedir = os.path.abspath(os.path.dirname(__file__))
     apps_dir = basedir.split("apps")[0] + "apps"
 
-    frappe.db.sql("""DELETE FROM `tabDesk Form`""")
-    frappe.db.sql("""DELETE FROM `tabDesk Form Field`""")
-
     print("Building Desk Forms")
 
     for app_name in os.listdir(apps_dir):
@@ -100,8 +97,13 @@ def create_desk_forms():
                     abspath = os.path.join(dirpath, filename)
                     f = open(abspath)
 
-                    insert_desk_form(json.load(f))
+                    form_data = json.load(f)
                     f.close()
+
+                    if frappe.db.exists("Desk Form", form_data.get("name")):
+                        print("    Skipping existing Desk Form: {}".format(form_data.get("name")))
+                    else:
+                        insert_desk_form(form_data)
 
     print("Building Desk Forms Complete")
 
