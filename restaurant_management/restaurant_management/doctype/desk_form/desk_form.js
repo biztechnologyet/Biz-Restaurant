@@ -1,4 +1,4 @@
-// Copyright (c) 2021, AlphaBit Technology and contributors
+// Copyright (c) 2021, Biz Technology Solutions and contributors
 // For license information, please see license.txt
 
 frappe.desk_form = {

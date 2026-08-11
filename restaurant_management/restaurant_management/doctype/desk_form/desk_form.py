@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2021, AlphaBit Technology and contributors
+# Copyright (c) 2021, Biz Technology Solutions and contributors
 # For license information, please see license.txt
 
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and contributors

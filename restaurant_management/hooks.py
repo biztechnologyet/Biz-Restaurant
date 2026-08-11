@@ -5,13 +5,13 @@ from . import __version__ as app_version
 
 app_name = "restaurant_management"
 app_title = "Restaurant"
-app_publisher = "Quantum Bit Core"
+app_publisher = "Biz Technology Solutions"
 app_description = "Restaurant"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "qubitcore.io@gmail.com"
+app_email = "biz.technology@outlook.com"
 app_license = "MIT"
-source_link = "https://github.com/alphabit-technology/erpnext-restaurant"
+source_link = "https://github.com/biztechnologyet/Biz-Restaurant"
 
 doc_events = {
     "POS Profile": {

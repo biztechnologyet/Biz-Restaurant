@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2024, AlphaBit Technology and contributors and Contributors
+# Copyright (c) 2024, Biz Technology Solutions and contributors and Contributors
 # See license.txt
 from __future__ import unicode_literals
 

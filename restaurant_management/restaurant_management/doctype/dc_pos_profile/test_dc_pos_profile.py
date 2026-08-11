@@ -1,4 +1,4 @@
-# Copyright (c) 2024, Quantum Bit Core and Contributors
+# Copyright (c) 2024, Biz Technology Solutions and Contributors
 # See license.txt
 
 # import frappe

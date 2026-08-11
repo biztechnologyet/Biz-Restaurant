@@ -64,7 +64,7 @@ This allows multiple production centers to read from the same rooms but handle d
 ## 🔧 Installation
 
 ```bash
-bench get-app https://github.com/alphabit-technology/erpnext-restaurant.git
+bench get-app https://github.com/biztechnologyet/Biz-Restaurant.git
 bench --site your-site.local install-app restaurant_management
 bench migrate
 ```
