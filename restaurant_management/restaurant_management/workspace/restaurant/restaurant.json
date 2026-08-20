@@ -1,25 +1,34 @@
 {
  "charts": [],
- "content": "[{\"id\":\"kb3XPLg8lb\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"QkJMGF7g_o\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant Settings\",\"col\":3}},{\"id\":\"h4tjM-eAgU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant Menu\",\"col\":3}},{\"id\":\"P5EKuVKVFZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item Group\",\"col\":3}},{\"id\":\"KOSwC_-OM9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Order Status\",\"col\":3}},{\"id\":\"eFyoplKGjU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"POS Profile\",\"col\":3}},{\"id\":\"nWd2KJPW8l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Order\",\"col\":3}},{\"id\":\"snrzfbFr5Y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Layout object\",\"col\":3}},{\"id\":\"CPxEyhaf3G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Booking\",\"col\":3}},{\"id\":\"WU4F-HUcIQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant\",\"col\":3}},{\"id\":\"d_KVM1gsf9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"JVu8-FJZCu\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"ji2Jlm3Q8i\",\"type\":\"card\",\"data\":{\"card_name\":\"Stock\",\"col\":4}},{\"id\":\"N61oiXpuwK\",\"type\":\"card\",\"data\":{\"card_name\":\"CRM\",\"col\":4}}]",
+ "content": "[{\"id\":\"rm_h1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Restaurant Operations Dashboard</b></span>\",\"col\":12}},{\"id\":\"rm_qa\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\">Quick Operations</span>\",\"col\":12}},{\"id\":\"rm_s1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant Manage\",\"col\":4}},{\"id\":\"rm_s2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Table Orders\",\"col\":4}},{\"id\":\"rm_s3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bookings\",\"col\":4}},{\"id\":\"rm_s4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant Menus\",\"col\":4}},{\"id\":\"rm_s5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tables and Rooms\",\"col\":4}},{\"id\":\"rm_s6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Order Statuses\",\"col\":4}},{\"id\":\"rm_s7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"POS Profiles\",\"col\":4}},{\"id\":\"rm_s8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant Settings\",\"col\":4}},{\"id\":\"rm_s9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Staff Permissions\",\"col\":4}},{\"id\":\"rm_ql_h\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\">Quick Lists</span>\",\"col\":12}},{\"id\":\"rm_ql_order\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Orders\",\"col\":6}},{\"id\":\"rm_ql_book\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Reservations\",\"col\":6}},{\"id\":\"rm_card_h\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\">Restaurant Management Modules</span>\",\"col\":12}},{\"id\":\"rm_c1\",\"type\":\"card\",\"data\":{\"card_name\":\"Front of House & Orders\",\"col\":4}},{\"id\":\"rm_c2\",\"type\":\"card\",\"data\":{\"card_name\":\"Menu & Culinary Masters\",\"col\":4}},{\"id\":\"rm_c3\",\"type\":\"card\",\"data\":{\"card_name\":\"Kitchen & Production Centers\",\"col\":4}},{\"id\":\"rm_c4\",\"type\":\"card\",\"data\":{\"card_name\":\"Point of Sale & Settings\",\"col\":4}},{\"id\":\"rm_c5\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Analytics\",\"col\":4}}]",
  "creation": "2020-01-23 13:46:38.833076",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "website",
+ "icon": "utensils",
  "idx": 0,
  "indicator_color": "",
  "is_hidden": 0,
  "label": "Restaurant",
  "links": [
   {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Front of House & Orders",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Card Break"
+  },
+  {
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Chart of Accounts",
+   "label": "Table Orders",
    "link_count": 0,
-   "link_to": "Account",
+   "link_to": "Table Order",
    "link_type": "DocType",
    "onboard": 1,
    "type": "Link"
@@ -28,9 +37,9 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Company",
+   "label": "Restaurant Bookings",
    "link_count": 0,
-   "link_to": "Company",
+   "link_to": "Restaurant Booking",
    "link_type": "DocType",
    "onboard": 1,
    "type": "Link"
@@ -39,9 +48,9 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Customer",
+   "label": "Rooms & Tables",
    "link_count": 0,
-   "link_to": "Customer",
+   "link_to": "Restaurant Object",
    "link_type": "DocType",
    "onboard": 1,
    "type": "Link"
@@ -50,18 +59,29 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Supplier",
+   "label": "Order Statuses",
    "link_count": 0,
-   "link_to": "Supplier",
+   "link_to": "Status Order PC",
    "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Restaurant Live POS Page",
+   "link_count": 0,
+   "link_to": "restaurant-manage",
+   "link_type": "Page",
    "onboard": 1,
    "type": "Link"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Stock",
-   "link_count": 4,
+   "label": "Menu & Culinary Masters",
+   "link_count": 6,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -70,9 +90,9 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Item",
+   "label": "Restaurant Menus",
    "link_count": 0,
-   "link_to": "Item",
+   "link_to": "Restaurant Menu",
    "link_type": "DocType",
    "onboard": 1,
    "type": "Link"
@@ -81,9 +101,20 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Warehouse",
+   "label": "Menu Items",
    "link_count": 0,
-   "link_to": "Warehouse",
+   "link_to": "Restaurant Menu Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cuisine Types",
+   "link_count": 0,
+   "link_to": "Cuisine Type",
    "link_type": "DocType",
    "onboard": 1,
    "type": "Link"
@@ -92,28 +123,39 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Brand",
+   "label": "Menu Categories",
    "link_count": 0,
-   "link_to": "Brand",
+   "link_to": "Item Group",
    "link_type": "DocType",
-   "onboard": 1,
+   "onboard": 0,
    "type": "Link"
   },
   {
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Unit of Measure (UOM)",
+   "label": "Item Modifiers & Customizations",
    "link_count": 0,
-   "link_to": "UOM",
+   "link_to": "Item Customizable",
    "link_type": "DocType",
-   "onboard": 1,
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Delivery Rates & Charges",
+   "link_count": 0,
+   "link_to": "RM Delivery Charges",
+   "link_type": "DocType",
+   "onboard": 0,
    "type": "Link"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "CRM",
+   "label": "Kitchen & Production Centers",
    "link_count": 3,
    "link_type": "DocType",
    "onboard": 0,
@@ -123,9 +165,51 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Lead",
+   "label": "Production Center Groups",
    "link_count": 0,
-   "link_to": "Lead",
+   "link_to": "Production Center Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Production Center Branches",
+   "link_count": 0,
+   "link_to": "Production Center Branch",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "KDS Station Statuses",
+   "link_count": 0,
+   "link_to": "Status Managed Production Center",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Point of Sale & Settings",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Restaurant Settings",
+   "link_count": 0,
+   "link_to": "Restaurant Settings",
    "link_type": "DocType",
    "onboard": 1,
    "type": "Link"
@@ -134,26 +218,79 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Customer Group",
+   "label": "Staff Table Permissions",
    "link_count": 0,
-   "link_to": "Customer Group",
+   "link_to": "Restaurant Permission Manage",
    "link_type": "DocType",
-   "onboard": 1,
+   "onboard": 0,
    "type": "Link"
   },
   {
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Territory",
+   "label": "Restaurant POS Configuration",
    "link_count": 0,
-   "link_to": "Territory",
+   "link_to": "DC POS Profile",
    "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "POS Profiles",
+   "link_count": 0,
+   "link_to": "POS Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Desk Forms Engine",
+   "link_count": 0,
+   "link_to": "Desk Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports & Analytics",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Restaurant Order Analytics",
+   "link_count": 0,
+   "link_to": "Restaurant Order Analytics",
+   "link_type": "Report",
    "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Invoice Analytics",
+   "link_count": 0,
+   "link_to": "Sales Analytics",
+   "link_type": "Report",
+   "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2024-04-18 16:02:01.385953",
+ "modified": "2026-08-20 17:00:00.000000",
  "modified_by": "Administrator",
  "module": "Restaurant Management",
  "name": "Restaurant",
@@ -161,16 +298,74 @@
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Table Order",
+   "label": "Orders",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Restaurant Booking",
+   "label": "Reservations",
+   "quick_list_filter": "[]"
+  }
+ ],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 1.0,
+ "sequence_id": 370.0,
  "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "",
+   "label": "Restaurant Manage",
+   "link_to": "restaurant-manage",
+   "type": "Page"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Table Orders",
+   "link_to": "Table Order",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Bookings",
+   "link_to": "Restaurant Booking",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Restaurant Menu",
+   "label": "Restaurant Menus",
    "link_to": "Restaurant Menu",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Tables and Rooms",
+   "link_to": "Restaurant Object",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Order Statuses",
+   "link_to": "Status Order PC",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "POS Profiles",
+   "link_to": "POS Profile",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -184,53 +379,10 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Item Group",
-   "link_to": "Item Group",
+   "label": "Staff Permissions",
+   "link_to": "Restaurant Permission Manage",
    "stats_filter": "[]",
    "type": "DocType"
-  },
-  {
-   "doc_view": "List",
-   "label": "Order",
-   "link_to": "Table Order",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "POS Profile",
-   "link_to": "POS Profile",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Order Status",
-   "link_to": "Status Order PC",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "List",
-   "label": "Layout object",
-   "link_to": "Restaurant Object",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "List",
-   "label": "Booking",
-   "link_to": "Restaurant Booking",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "",
-   "label": "Restaurant",
-   "link_to": "restaurant-manage",
-   "type": "Page"
   }
  ],
  "title": "Restaurant"

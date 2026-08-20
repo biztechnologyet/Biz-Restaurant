@@ -4,8 +4,10 @@
 
 from __future__ import unicode_literals
 import frappe
-from frappe.model.document import Document
-from restaurant_management.setup import install
+try:
+    from restaurant_management.setup import install
+except ImportError:
+    from restaurant_management.restaurant_management.setup import install
 from erpnext.stock.get_item_details import get_pos_profile
 
 
